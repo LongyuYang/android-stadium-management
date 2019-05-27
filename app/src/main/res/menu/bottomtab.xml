@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_notification_home"
+        android:icon="@drawable/vector_drawable_notification"
+        android:title="@string/BotoomTab_Notification" />
+    <item
+        android:id="@+id/tab_book_discovery"
+        android:icon="@drawable/vector_drawable_book"
+        android:title="@string/BottomTab_Book" />
+    <item
+        android:id="@+id/tab_mycenter_attention"
+        android:icon="@drawable/vector_drawable_me"
+        android:title="@string/BottomTab_Mycenter" />
+</menu>

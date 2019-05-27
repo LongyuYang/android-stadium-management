@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">公共体育设施管理系统</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="Login_username">请输入用户名</string>
+    <string name="Login_paswd">请输入登录密码</string>
+    <string name="Login_Button">登录</string>
+    <string name="Login_login">用户登录</string>
+    <string name="Login_Signup">新用户注册</string>
+    <string name="Signup_Signup" translatable="false">用户注册</string>
+    <string name="Signup_Newname">请输入新用户名</string>
+    <string name="Signup_Stuno">请输入学号</string>
+    <string name="Signup_passwd">请输入新密码</string>
+    <string name="Signup_cerpasswd">请确认密码</string>
+    <string name="Me_mycenter">个人中心</string>
+    <string name="Me_myname">用户名</string>
+    <string name="Me_Department">学院</string>
+    <string-array name="Departments">
+        <item>电子与信息工程学院</item>
+        <item>经济与管理学院</item>
+        <item>艺术与传媒学院</item>
+        <item>机械与能源学院</item>
+        <item>汽车学院</item>
+        <item>轨道与交通学院</item>
+        <item>软件学院</item>
+        <item>中德学院</item>
+    </string-array>
+    <string-array name="Gender">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string name="Me_stuno">学号</string>
+    <string name="Me_Username">同济篮球小霸王</string>
+    <string name="Me_UserAvator">UserAvator</string>
+    <string name="BotoomTab_Notification">预约提醒</string>
+    <string name="BottomTab_Book">预约场馆</string>
+    <string name="BottomTab_Mycenter">个人中心</string>
+    <string name="Record_record">预约记录</string>
+    <string name="Record_statium1">羽毛球馆</string>
+    <string name="Campus1">嘉定校区</string>
+    <string name="OrderStatus">预约已结束</string>
+    <string name="Record_submit">提交于：</string>
+    <string name="Record_stadium2">乒乓球馆</string>
+    <string name="OderStatus2">预约已失效</string>
+    <string name="Record_ReturnBT">返回主页</string>
+    <string name="Record_date">预约时间段：</string>
+    <string name="Record_connect">-</string>
+    <string name="Record_date1">2019-5-20</string>
+    <string name="Record_starttime1">14:00</string>
+    <string name="Record_starttime2">10:30</string>
+    <string name="Record_endtime1">16:00</string>
+    <string name="Record_endtime2">11:30</string>
+    <string name="Record_date2">2019-4-13</string>
+
+</resources>
