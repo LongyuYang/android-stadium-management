@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/reservationgym1"
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:focusable="true"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/remindEnd"
+            android:layout_width="42dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/Remind_endtime1"
+            app:layout_constraintBottom_toTopOf="@+id/ReservationState"
+            app:layout_constraintStart_toEndOf="@+id/remindStart" />
+
+        <TextView
+            android:id="@+id/bookStadiumName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/Remind_Gymname1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/GymOpeningTime1"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/Remind_date"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bookStadiumName" />
+
+        <TextView
+            android:id="@+id/remindDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/Remind_date1"
+            app:layout_constraintStart_toEndOf="@+id/GymOpeningTime1"
+            app:layout_constraintTop_toBottomOf="@+id/bookStadiumName" />
+
+        <TextView
+            android:id="@+id/remindStart"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/Remind_starttime1"
+            app:layout_constraintStart_toEndOf="@+id/remindDate"
+            app:layout_constraintTop_toBottomOf="@+id/bookStadiumName" />
+
+        <TextView
+            android:id="@+id/dash"
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/Remind_dash"
+            app:layout_constraintBottom_toTopOf="@+id/ReservationState"
+            app:layout_constraintEnd_toStartOf="@+id/remindEnd"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/remindStart" />
+
+        <TextView
+            android:id="@+id/ReservationState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/Remind_state"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/GymOpeningTime1" />
+
+        <TextView
+            android:id="@+id/remindMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/Remind_state1"
+            app:layout_constraintStart_toEndOf="@+id/ReservationState"
+            app:layout_constraintTop_toBottomOf="@+id/GymOpeningTime1" />
+
+
+        <Button
+            android:id="@+id/GPSbtn"
+            android:layout_width="61dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/colorAccent"
+            android:shadowColor="@color/colorPrimary"
+            android:text="@string/Remind_GPSBT"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintStart_toEndOf="@+id/imageView1"
+            app:layout_constraintTop_toBottomOf="@+id/ReservationState" />
+
+        <Button
+            android:id="@+id/GPSbtn2"
+            android:layout_width="61dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/colorAccent"
+            android:shadowColor="@color/colorPrimary"
+            android:text="@string/Remind_GPSGD"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintStart_toEndOf="@+id/GPSbtn"
+            app:layout_constraintTop_toBottomOf="@+id/ReservationState" />
+
+        <Button
+            android:id="@+id/GPSbtn3"
+            android:layout_width="61dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/colorAccent"
+            android:shadowColor="@color/colorPrimary"
+            android:text="@string/Remind_GPSBD"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintStart_toEndOf="@+id/GPSbtn2"
+            app:layout_constraintTop_toBottomOf="@+id/ReservationState" />
+
+        <Button
+            android:id="@+id/CancelBtn"
+            android:layout_width="61dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="12dp"
+            android:background="@color/colorAccent"
+            android:shadowColor="@color/colorPrimary"
+            android:text="@string/Remind_CancelBT"
+            android:textColor="@color/colorButtonRed"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ReservationState" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="32dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/Me_UserAvator"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/GPSbtn"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ReservationState"
+            app:layout_constraintVertical_bias="0.529"
+            app:srcCompat="@android:drawable/ic_menu_compass" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="35dp"
+            android:layout_height="23dp"
+            android:contentDescription="@string/Me_UserAvator"
+            app:layout_constraintEnd_toStartOf="@+id/CancelBtn"
+            app:layout_constraintTop_toTopOf="@+id/imageView1"
+            app:srcCompat="@android:drawable/ic_delete" />
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

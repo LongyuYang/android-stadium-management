@@ -6,4 +6,6 @@
     <color name="colorButtonRed">#E42F35</color>
     <color name="gray">#808080</color>
     <color name="selector_blue">#6495ED</color>
+    <color name="color_blue">#42578B</color>
+    <color name="color_OK">#1E8EFE</color>
 </resources>

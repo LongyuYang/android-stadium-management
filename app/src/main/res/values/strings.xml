@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name">公共体育设施管理系统</string>
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
@@ -38,6 +38,7 @@
     <string name="Record_record">预约记录</string>
     <string name="Record_statium1">羽毛球馆</string>
     <string name="Campus1">嘉定校区</string>
+    <string name="Campus2">四平校区</string>
     <string name="OrderStatus">预约已结束</string>
     <string name="Record_submit">提交于：</string>
     <string name="Record_stadium2">乒乓球馆</string>
@@ -51,5 +52,67 @@
     <string name="Record_endtime1">16:00</string>
     <string name="Record_endtime2">11:30</string>
     <string name="Record_date2">2019-4-13</string>
+    <string name="Gym_OpeningTime">开馆时间：</string>
+    <string name="Gym_ClosingTime">闭馆时间：</string>
+    <string name="Gym_OpeningTime_data1">9:00</string>
+    <string name="Gym_OpeningTime_data2">9:30</string>
+    <string name="Gym_OpeningTime_data3">10:00</string>
+    <string name="Gym_OpeningTime_data4">9:00</string>
+    <string name="Gym_ClosingTime_data1">20:00</string>
+    <string name="Gym_ClosingTime_data2">20:30</string>
+    <string name="Gym_ClosingTime_data3">21:00</string>
+    <string name="Gym_ClosingTime_data4">21:30</string>
+    <string name="Gym_ReturnBT">返回主页</string>
+    <string name="Gym_ReservationBT">立即预约</string>
+    <string name="Gym_Subtitle">场馆预约</string>
+    <string name="Gym_name1">网球场</string>
+    <string name="Gym_name2">篮球场</string>
+    <string name="Gym_name3">羽毛球馆</string>
+    <string name="Gym_name4">乒乓球馆</string>
+    <string name="Remind_Subtitle">预约提醒</string>
+    <string name="Remind_Gymname1">网球场</string>
+    <string name="Remind_Gymname2">羽毛球馆</string>
+    <string name="Remind_date">预约时间段：</string>
+    <string name="Remind_date1">2019-5-20</string>
+    <string name="Remind_date2">2019-5-29</string>
+    <string name="Remind_starttime1">14:00</string>
+    <string name="Remind_starttime2">17:00</string>
+    <string name="Remind_endtime1">15:30</string>
+    <string name="Remind_endtime2">19:00</string>
+    <string name="Remind_state">预约状态：</string>
+    <string name="Remind_state1">生效中</string>
+    <string name="Remind_state2">未生效</string>
+    <string name="Remind_dash">--</string>
+    <string name="Remind_QRBT">扫码占用</string>
+    <string name="Remind_CancelBT">取消预约</string>
+    <string name="Reservation_Subtitle">开始预约</string>
+    <string name="Reservation_gymname">网球场</string>
+    <string name="Reservation_finishBT">提交预约</string>
+    <string name="Reservation_cancelBT">取消预约</string>
+    <string name="Reservation_date">预约日期</string>
+    <string name="Reservation_starttime">起始时间</string>
+    <string name="Reservation_endtime">结束时间</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Remind_GPSBT">内置定位</string>
+    <string name="Remind_GPSGD">高德地图</string>
+    <string name="Remind_GPSBD">百度地图</string>
+    <string name="Reservation_Time1">7:00</string>
+    <string name="Reservation_Time2">8:00</string>
+    <string name="Reservation_Time3">9:00</string>
+    <string name="Reservation_Time4">10:00</string>
+    <string name="Reservation_Time5">11:00</string>
+    <string name="Reservation_Time6">12:00</string>
+    <string name="Reservation_Time7">13:00</string>
+    <string name="Reservation_Time8">14:00</string>
+    <string name="Reservation_Time9">15:00</string>
+    <string name="Reservation_Time10">16:00</string>
+    <string name="Reservation_Time11">17:00</string>
+    <string name="Reservation_Time12">18:00</string>
+    <string name="Reservation_Time13">19:00</string>
+    <string name="Reservation_Time14">20:00</string>
+    <string name="Reservation_Time15">21:00</string>
+    <string name="Reservation_Time16">22:00</string>
+    <integer name="A">9</integer>
 </resources>

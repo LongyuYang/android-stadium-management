@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/Gym1"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:focusable="true"
+        tools:layout_editor_absoluteY="12dp">
+
+        <TextView
+            android:id="@+id/endTime"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/Record_endtime2"
+            app:layout_constraintBottom_toTopOf="@+id/address"
+            app:layout_constraintStart_toEndOf="@+id/GymClosingTime1"
+            tools:text="@string/Gym_ClosingTime_data1" />
+
+        <TextView
+            android:id="@+id/gymname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/Gym_name1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/Gym_name1" />
+
+        <TextView
+            android:id="@+id/GymOpeningTime1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/Gym_OpeningTime"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gymname"
+            tools:text="@string/Gym_OpeningTime" />
+
+        <TextView
+            android:id="@+id/startTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/Gym_OpeningTime_data1"
+            app:layout_constraintStart_toEndOf="@+id/GymOpeningTime1"
+            app:layout_constraintTop_toBottomOf="@+id/gymname"
+            tools:text="@string/Gym_OpeningTime_data1" />
+
+        <TextView
+            android:id="@+id/GymClosingTime1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/Gym_ClosingTime"
+            app:layout_constraintBottom_toTopOf="@+id/address"
+            app:layout_constraintStart_toEndOf="@+id/startTime"
+            app:layout_constraintTop_toBottomOf="@+id/gymname"
+            tools:text="@string/Gym_ClosingTime" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/Campus1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/GymOpeningTime1"
+            tools:text="@string/Campus1" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>
